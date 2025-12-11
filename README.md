@@ -27,6 +27,28 @@ The dataset includes the following variables:
 - `alcohol`  
 - `quality` (Target variable)
 
+Hypotheses
+
+To formally investigate the relationship between alcohol content and wine quality, a statistical hypothesis-testing framework is applied. The analysis uses both a Pearson correlation test and a simple linear regression model to determine whether alcohol percentage is associated with higher quality ratings.
+
+The following hypotheses are proposed:
+
+Null Hypothesis (H₀):
+
+There is no statistically significant relationship between alcohol content and wine quality in the White Wine Quality dataset.
+Formally:
+H₀: β₁ = 0
+(Alcohol content does not influence quality.)
+
+Alternative Hypothesis (H₁):
+
+There is a statistically significant relationship between alcohol content and wine quality.
+Formally:
+H₁: β₁ ≠ 0
+(Alcohol content influences quality.)
+
+These hypotheses allow the study to determine whether changes in alcohol levels correspond to meaningful differences in quality scores. If the statistical results show a significant correlation or regression coefficient, the null hypothesis will be rejected, supporting the alternative hypothesis.
+
 Methodology  
 
 The analysis includes:
