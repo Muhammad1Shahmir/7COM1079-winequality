@@ -43,12 +43,12 @@ The analysis includes:
 
 3. Statistical Analysis
 - Correlation analysis  
-- Linear regression model:  
+- Linear regression model: 
   ```
   quality ~ alcohol
   ```
-- Normality testing  
-- Effect size estimation  
+- Normality testing 
+- Effect size estimation
 
 Summary of Findings  
 
