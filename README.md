@@ -60,6 +60,12 @@ The analysis aims to determine:
 
 Final conclusions are based on regression results, p-values, confidence intervals, and visual inspection.
 
+Additional Insights 
+
+Beyond the core statistical results, this analysis also offers some practical takeaways for anyone involved in winemaking or wine evaluation. Knowing that alcohol content might influence perceived quality can help guide decisions during production, such as how long to ferment or when to harvest grapes. Of course, alcohol is only one piece of the puzzle—factors like aroma, acidity, balance, and sweetness also play a major role in how a wine is judged. Still, seeing a measurable relationship gives producers and analysts a clearer starting point for improving overall quality.
+
+This project also opens the door for deeper research. Future analyses could look at how alcohol interacts with other chemical features, like residual sugar or sulphates, to better understand what truly drives expert ratings. Exploring these connections could lead to a more complete picture of what makes certain wines stand out in terms of flavor, structure, and overall enjoyment.
+
 Group Collaboration  
 
 All group members contributed through GitHub commits, code review, and documentation.  
