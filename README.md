@@ -1,8 +1,10 @@
 White Wine Quality Analysis: Alcohol vs Quality
 
 Overview  
-This project conducts a comprehensive statistical analysis to determine whether **alcohol content** is a statistically significant predictor of **wine quality** in the *White Wine Quality* dataset.  
-The dataset contains 12 chemical and sensory attributes for nearly 5,000 white wine samples, and the primary goal is to explore whether higher alcohol levels are associated with higher-quality ratings.
+
+This project takes a clear and organized look at how alcohol content affects the quality of white wine. Using the White **Wine Quality dataset, which includes nearly 5,000 samples, we examine 12 different chemical and sensory features such as acidity, sugar levels, density, pH, and alcohol percentage.
+The main goal of the study is to find out whether wines with higher alcohol content tend to receive higher quality ratings. To answer this, we use statistical methods such as correlation analysis and regression modeling. These techniques help us determine whether the relationship between alcohol and quality is statistically significant—in other words, whether the pattern we observe is real and not just due to random chance.
+By analyzing the data, we aim to understand how strongly alcohol influences quality and whether it stands out as an important factor compared to the other chemical properties in the dataset.
 
 Research Question  
 
@@ -29,13 +31,14 @@ The dataset includes the following variables:
 
 Hypotheses
 
-To formally investigate the relationship between alcohol content and wine quality, a statistical hypothesis-testing framework is applied. The analysis uses both a Pearson correlation test and a simple linear regression model to determine whether alcohol percentage is associated with higher quality ratings.
+To formally examine whether alcohol content is related to wine quality, this project uses a statistical hypothesis-testing approach. Two main methods are applied to explore this relationship. First, a Pearson correlation test is used to measure the strength and direction of the linear relationship between alcohol percentage and quality ratings. This helps determine whether higher alcohol levels tend to go together with higher quality.
+Second, a simple linear regression model is built to check whether alcohol content can predict wine quality. This model allows us to test whether the effect of alcohol on quality is statistically significant, meaning that the association is unlikely to be due to random chance. Taken together, these methods provide a clear and formal assessment of whether wines with higher alcohol content are generally rated as higher quality.
 
 The following hypotheses are proposed:
 
 Null Hypothesis (H₀):
 
-There is no statistically significant relationship between alcohol content and wine quality in the White Wine Quality dataset.
+There is no statistically significant relationship between alcohol content and wine quality. The analysis shows that alcohol content is not a statistically significant predictor of wine quality. This means that, in this dataset, wines with higher alcohol levels do not consistently receive higher quality ratings.in the White Wine Quality dataset.
 Formally:
 H₀: β₁ = 0
 (Alcohol content does not influence quality.)
@@ -47,8 +50,7 @@ Formally:
 H₁: β₁ ≠ 0
 (Alcohol content influences quality.)
 
-These hypotheses allow the study to determine whether changes in alcohol levels correspond to meaningful differences in quality scores. If the statistical results show a significant correlation or regression coefficient, the null hypothesis will be rejected, supporting the alternative hypothesis.
-
+These hypotheses help us see whether changes in alcohol levels actually affect wine quality scores. If the tests show a significant result, we reject the null hypothesis and accept the alternative, meaning alcohol does have an effect on quality.
 Methodology  
 
 The analysis includes:
